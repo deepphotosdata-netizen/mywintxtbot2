@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_deepphotosdata_netizen_mywintxtbot2_1762664002692-pr-trigger-input-set
+  identifier: Build_deepphotosdata_netizen_mywintxtbot2_1762664002692prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_deepphotosdata_netizen_mywintxtbot2_1762664002692
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
