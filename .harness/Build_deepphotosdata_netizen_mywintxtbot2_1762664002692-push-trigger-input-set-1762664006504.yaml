@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_deepphotosdata_netizen_mywintxtbot2_1762664002692-push-trigger-input-set
+  identifier: Build_deepphotosdata_netizen_mywintxtbot2_1762664002692pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_deepphotosdata_netizen_mywintxtbot2_1762664002692
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
